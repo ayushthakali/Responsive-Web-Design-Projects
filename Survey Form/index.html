@@ -1,0 +1,50 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <h1 id="title">Champions League Survey Form</h1>
+  <p id="description">Thank you for your time</p>
+  <div>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+    <label for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+   <label id="number-label" for="number">Age(optional) <input required id="number" type="number" placeholder="Age" min="10" max="99">
+  
+<label for="dropdown">Which team do you prefer to win champions league 2024?</label> 
+<select id="dropdown">
+<option disabled selected value="">select one</option>
+<option value="RM">Real Madrid</option>
+<option value="PSG">PSG</option>
+<option value="BD">Dortmund </option>
+<option value="BM">Bayern Munich</option>
+</select>
+
+<fieldset class="rad">
+  <legend>Which strategy do you prefer?</legend>
+  <label for="first"><input type="radio" id="first" value="first" name="win" checked>Offensive</label>
+  <label for="second"><input type="radio" value="second" id="second" name="win">Defensive</label>
+</fieldset>
+
+<fieldset class="play">
+  <legend>Check the players you like:</legend>
+    <input id="p1" value="p1" type="checkbox"><label for="p1">J. Bellingham</label><br>
+    <input id="p2" value="p2" type="checkbox"><label for="p2">Vini Jr.</label><br>
+    <input id="p3" value="p3" type="checkbox"><label for="p3">K.Mbappe</label><br>
+    <input id="p4" value="p4" type="checkbox"><label for="p4">O.Dembele</label><br>
+    <input id="p5" value="p5" type="checkbox"><label for="p5">M.Reus</label><br>
+    <input id="p6" value="p6" type="checkbox"><label for="p6">J.Sancho</label><br>
+    <input id="p7" value="p7" type="checkbox"><label for="p7">H.Kane</label><br>
+    <input id="p8" value="p8" type="checkbox"><label for="p8">J.Musiala</label>
+</fieldset>
+
+<label for="predict">Predict the fulltime score and goal scorers : <textarea id="predict" name="predict" placeholder="Write here..." required rows="6"></textarea>
+
+<input id="submit"type="submit" value="Submit" class="sub">
+</form>
+</div>
+  </body>
+    </html>
